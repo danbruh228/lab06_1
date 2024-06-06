@@ -61,7 +61,6 @@ jobs:
         run: |
           cd _build
           cpack -G "ZIP"
-          cpack -G "WIX"
           cpack -G "NSIS"
           cd ..
       - name: Artifacts
